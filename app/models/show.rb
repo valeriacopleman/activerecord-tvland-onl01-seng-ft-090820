@@ -7,7 +7,6 @@ class Show < ActiveRecord::Base
     self.actors.collect do |a|
       a.full_name
     end
-    
   end
   
 end
